@@ -5,6 +5,9 @@
 *.tfstate
 *.tfstate.*
 
+# Lock files
+.terraform.lock.hcl
+
 # Crash log files
 crash.log
 
@@ -30,3 +33,6 @@ override.tf.json
 
 # Ignore any files with .ignore. in the filename
 *.ignore.*
+
+# Ignore macOS .DS_Store files which are generated automatically by Finder.
+.DS_Store
